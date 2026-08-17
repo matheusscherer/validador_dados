@@ -1,0 +1,506 @@
+id_venda,data_venda,filial,vendedor,produto,quantidade,valor_unitario,valor_total
+1,2026-03-11,Canoas,Bruno Carvalho,Medicamento A,2,25.9,51.8
+2,2026-06-24,São Leopoldo,Maria Oliveira,Suplemento E,1,120.0,120.0
+3,2026-02-01,Eldorado do Sul,Lucas Rodrigues,Cosmético C,5,89.9,449.5
+4,2026-06-30,Canoas,Lucas Rodrigues,Cosmético C,8,89.9,719.2
+5,2026-05-17,Canoas,Bruno Carvalho,Medicamento A,6,25.9,155.4
+6,2026-03-20,Eldorado do Sul,Ana Pereira,Higiene D,5,15.3,76.5
+7,2026-01-27,Porto Alegre - Centro,Lucas Rodrigues,Medicamento B,-6,45.5,273.0
+8,2026-07-11,Eldorado do Sul,Maria Oliveira,Higiene D,5,15.3,76.5
+9,2026-01-24,Eldorado do Sul,Ana Pereira,Higiene D,1,15.3,15.3
+10,2026-05-09,Porto Alegre - Zona Sul,João Silva,Suplemento E,8,120.0,960.0
+11,2026-05-30,Canoas,Juliana Costa,Suplemento E,7,120.0,840.0
+12,2026-07-22,Porto Alegre - Zona Sul,Carlos Souza,Medicamento F,6,32.7,196.2
+13,2026-07-25,Canoas,Bruno Carvalho,Higiene D,3,15.3,45.9
+14,2026-03-10,Porto Alegre - Zona Sul,Larissa Gomes,Medicamento F,4,32.7,130.8
+15,2026-05-19,Eldorado do Sul,Pedro Santos,Medicamento A,9,25.9,233.1
+16,2026-03-24,Gravataí,Carlos Souza,Medicamento A,2,25.9,51.8
+17,2026-02-07,Eldorado do Sul,Ana Pereira,Medicamento B,2,45.5,1090.99
+18,2026-06-05,Canoas,Lucas Rodrigues,Higiene D,8,15.3,1122.39
+19,2026-02-19,São Leopoldo,Maria Oliveira,Cosmético C,10,89.9,899.0
+20,2026-04-09,Porto Alegre - Centro,Juliana Costa,Cosmético C,4,89.9,1359.5900000000001
+21,2026-05-19,Porto Alegre - Zona Sul,Larissa Gomes,Higiene D,4,15.3,61.2
+22,2026-02-19,Porto Alegre - Zona Sul,Rafael Almeida,Medicamento A,4,25.9,103.6
+23,2026-01-07,São Leopoldo,Pedro Santos,Medicamento F,2,32.7,65.4
+24,2026-05-01,Porto Alegre - Zona Sul,Fernanda Lima,Higiene D,8,15.3,122.4
+25,2026-02-22,Porto Alegre - Centro,Rafael Almeida,Medicamento B,10,45.5,455.0
+26,2026-05-03,Canoas,Lucas Rodrigues,Medicamento A,1,25.9,25.9
+27,2026-02-05,Porto Alegre - Zona Sul,Maria Oliveira,Medicamento B,4,45.5,182.0
+28,2026-02-09,São Leopoldo,Carlos Souza,Medicamento A,2,25.9,51.8
+29,2026-06-12,Canoas,Larissa Gomes,Higiene D,6,15.3,91.8
+30,2026-06-21,Porto Alegre - Centro,Camila Ferreira,Medicamento B,8,45.5,364.0
+31,2026-05-28,Eldorado do Sul,Larissa Gomes,Suplemento E,6,120.0,720.0
+32,2026-04-04,Canoas,Juliana Costa,Medicamento B,9,45.5,409.5
+33,2026-06-09,Eldorado do Sul,Bruno Carvalho,Medicamento F,6,32.7,196.2
+34,2026-06-06,Eldorado do Sul,Larissa Gomes,Higiene D,4,15.3,61.2
+35,2026-02-12,São Leopoldo,Pedro Santos,Medicamento A,8,25.9,207.2
+36,2026-05-16,Gravataí,Ana Pereira,Suplemento E,2,120.0,240.0
+37,2026-02-03,Porto Alegre - Centro,Juliana Costa,Medicamento F,1,32.7,32.7
+38,2026-07-04,Porto Alegre - Zona Sul,Lucas Rodrigues,Medicamento F,9,32.7,294.3
+39,2026-04-20,Gravataí,Fernanda Lima,Suplemento E,9,120.0,1080.0
+40,2026-06-19,Eldorado do Sul,Camila Ferreira,Suplemento E,1,120.0,120.0
+41,2026-05-07,Canoas,Maria Oliveira,Suplemento E,9,120.0,1080.0
+42,2026-02-10,Eldorado do Sul,Pedro Santos,Higiene D,6,15.3,91.8
+43,2026-02-15,Eldorado do Sul,João Silva,Medicamento B,6,45.5,273.0
+44,2026-03-18,São Leopoldo,Lucas Rodrigues,Cosmético C,10,89.9,899.0
+45,2026-02-09,Porto Alegre - Zona Sul,Pedro Santos,Medicamento F,8,32.7,261.6
+46,2026-02-27,São Leopoldo,Maria Oliveira,Medicamento A,6,25.9,155.4
+47,2026-05-31,Canoas,Rafael Almeida,Medicamento B,7,45.5,318.5
+48,2026-04-30,Porto Alegre - Centro,Pedro Santos,Cosmético C,4,89.9,359.6
+49,2026-01-15,Porto Alegre - Centro,Camila Ferreira,Medicamento A,6,25.9,155.4
+50,2026-01-26,Porto Alegre - Zona Sul,Pedro Santos,Suplemento E,5,120.0,600.0
+51,2026-05-25,São Leopoldo,Lucas Rodrigues,Medicamento B,3,45.5,136.5
+52,2026-02-08,Eldorado do Sul,Maria Oliveira,Medicamento F,10,32.7,327.0
+53,2026-05-07,Porto Alegre - Centro,Maria Oliveira,Medicamento A,5,25.9,129.5
+54,2026-02-11,Eldorado do Sul,Larissa Gomes,Cosmético C,3,89.9,269.7
+55,2026-07-25,São Leopoldo,Rafael Almeida,Medicamento B,3,45.5,136.5
+56,2026-07-14,São Leopoldo,Larissa Gomes,Higiene D,2,15.3,30.6
+57,2026-03-27,Porto Alegre - Centro,Ana Pereira,Medicamento F,10,32.7,327.0
+58,2026-04-23,Gravataí,Rafael Almeida,Medicamento B,8,45.5,364.0
+59,2026-04-30,São Leopoldo,Rafael Almeida,Medicamento A,8,25.9,207.2
+60,2026-05-21,Porto Alegre - Zona Sul,Pedro Santos,Medicamento F,8,32.7,261.6
+61,2026-05-25,São Leopoldo,Carlos Souza,Suplemento E,7,120.0,840000.0
+62,2026-04-17,Canoas,Fernanda Lima,Medicamento B,8,45.5,364.0
+63,2026-04-18,GRAVATAÍ  ,Larissa Gomes,Cosmético C,9,89.9,809.1
+64,2026-04-20,Porto Alegre - Centro,Camila Ferreira,Medicamento B,5,45.5,227.5
+65,2026-01-11,Eldorado do Sul,Pedro Santos,Medicamento A,4,25.9,103.6
+66,2026-07-07,Eldorado do Sul,Lucas Rodrigues,Medicamento F,6,32.7,196.2
+67,2026-04-25,Gravataí,João Silva,Medicamento F,8,32.7,261.6
+68,2026-02-02,Eldorado do Sul,Bruno Carvalho,Suplemento E,2,120.0,240.0
+69,2026-02-10,Porto Alegre - Centro,Fernanda Lima,Medicamento F,9,32.7,294.3
+70,2026-01-10,Canoas,Ana Pereira,Medicamento A,7,25.9,181.3
+71,2026-05-23,Porto Alegre - Zona Sul,Maria Oliveira,Higiene D,1,15.3,15.3
+72,2026-07-10,Porto Alegre - Centro,Fernanda Lima,Suplemento E,2,120.0,240000.0
+73,2026-03-19,Canoas,Bruno Carvalho,Medicamento F,9,32.7,294.3
+74,2026-03-05,Porto Alegre - Centro,Rafael Almeida,Cosmético C,2,89.9,179.8
+75,2026-02-27,Porto Alegre - Zona Sul,Carlos Souza,Medicamento F,5,32.7,163.5
+76,2026-07-21,Gravataí,Juliana Costa,Medicamento B,3,45.5,136.5
+77,2026-03-06,Porto Alegre - Zona Sul,Maria Oliveira,Medicamento B,9,45.5,409.5
+78,2026-02-17,Porto Alegre - Centro,Camila Ferreira,Suplemento E,-2,120.0,240.0
+79,2026-05-10,Canoas,Rafael Almeida,Medicamento A,7,25.9,181.3
+80,2026-06-09,Porto Alegre - Zona Sul,Ana Pereira,Medicamento B,1,45.5,45.5
+81,2026-07-04,São Leopoldo,Pedro Santos,Higiene D,1,15.3,15.3
+82,2026-05-10,Gravataí,Larissa Gomes,Cosmético C,2,89.9,179.8
+83,2026-04-18,Porto Alegre - Zona Sul,Ana Pereira,Suplemento E,9,120.0,1080.0
+84,2026-07-04,Gravataí,Juliana Costa,Medicamento B,10,45.5,455.0
+85,2026-07-26,Gravataí,Bruno Carvalho,Medicamento A,9,25.9,233.1
+86,2026-01-10,Eldorado do Sul,,Medicamento B,9,45.5,409.5
+87,2026-03-31,Eldorado do Sul,Bruno Carvalho,Suplemento E,3,120.0,360.0
+88,2026-04-21,São Leopoldo,Juliana Costa,Suplemento E,1,120.0,120.0
+89,2026-04-14,São Leopoldo,Pedro Santos,Higiene D,6,15.3,91.8
+90,2026-04-14,São Leopoldo,Juliana Costa,Medicamento A,1,25.9,25.9
+91,2026-06-16,Gravataí,João Silva,Medicamento A,1,25.9,25.9
+92,2026-04-23,Gravataí,Larissa Gomes,Cosmético C,3,89.9,269.7
+93,2026-03-16,Eldorado do Sul,Maria Oliveira,Medicamento B,5,45.5,227.5
+94,2026-03-11,Porto Alegre - Zona Sul,Pedro Santos,Suplemento E,9,120.0,1080.0
+95,2026-07-12,São Leopoldo,Ana Pereira,Cosmético C,1,89.9,89.9
+96,2026-01-07,Gravataí,Ana Pereira,Suplemento E,10,120.0,1200.0
+97,2026-05-06,Porto Alegre - Centro,Maria Oliveira,Suplemento E,6,120.0,720000.0
+98,2026-03-08,Porto Alegre - Zona Sul,Bruno Carvalho,Suplemento E,6,120.0,720.0
+99,2026-01-26,São Leopoldo,Maria Oliveira,Suplemento E,7,120.0,840.0
+100,2026-03-17,Eldorado do Sul,Maria Oliveira,Medicamento B,9,45.5,409.5
+101,2026-01-24,São Leopoldo,Bruno Carvalho,Medicamento F,9,32.7,294.3
+102,2026-04-27,Porto Alegre - Centro,Larissa Gomes,Medicamento A,9,25.9,233.1
+103,2026-06-13,GRAVATAÍ  ,Fernanda Lima,Medicamento B,7,45.5,318.5
+104,2026-06-02,Gravataí,Ana Pereira,Higiene D,10,15.3,153.0
+105,2026-03-20,Gravataí,Camila Ferreira,Suplemento E,7,120.0,840.0
+106,2026-06-20,Porto Alegre - Centro,Juliana Costa,Medicamento B,4,45.5,182.0
+107,2026-01-22,São Leopoldo,,Medicamento F,1,32.7,32.7
+108,2026-04-23,Gravataí,Fernanda Lima,Medicamento F,6,32.7,196.2
+109,2026-04-18,Porto Alegre - Zona Sul,Fernanda Lima,Medicamento F,9,32.7,294.3
+110,2026-03-15,Porto Alegre - Zona Sul,Camila Ferreira,Suplemento E,8,120.0,960.0
+111,2026-02-09,Porto Alegre - Zona Sul,Camila Ferreira,Medicamento A,1,25.9,25.9
+112,2026-01-10,Porto Alegre - Centro,,Suplemento E,5,120.0,600.0
+113,2026-04-23,São Leopoldo,Fernanda Lima,Medicamento B,5,45.5,227.5
+114,2026-07-18,Eldorado do Sul,,Higiene D,7,15.3,107.1
+115,2026-07-16,Gravataí,Fernanda Lima,Medicamento F,5,32.7,163.5
+116,2026-03-09,São Leopoldo,Ana Pereira,Medicamento F,10,32.7,327.0
+117,2026-06-10,Porto Alegre - Centro,Bruno Carvalho,Cosmético C,3,89.9,269.7
+118,2026-05-16,Porto Alegre - Zona Sul,João Silva,Higiene D,9,15.3,137.7
+119,2026-06-15,São Leopoldo,Fernanda Lima,Medicamento F,8,32.7,261.6
+120,2026-06-18,Gravataí,Camila Ferreira,Medicamento A,7,25.9,181.3
+121,2026-03-18,São Leopoldo,Maria Oliveira,Medicamento A,9,25.9,233.1
+122,2026-07-08,Eldorado do Sul,Lucas Rodrigues,Medicamento A,3,25.9,77.7
+123,2026-05-01,Porto Alegre - Centro,Bruno Carvalho,Medicamento A,7,25.9,1181.29
+124,2026-06-20,Canoas,Larissa Gomes,Higiene D,6,15.3,91.8
+125,2026-05-31,Porto Alegre - Centro,Bruno Carvalho,Medicamento F,10,32.7,327.0
+126,2026-02-24,São Leopoldo,Fernanda Lima,Medicamento F,6,32.7,196.2
+127,2026-04-19,Canoas,Fernanda Lima,Higiene D,6,15.3,91.8
+128,2026-05-06,Gravataí,Ana Pereira,Medicamento B,7,45.5,318.5
+129,2026-01-18,Eldorado do Sul,Lucas Rodrigues,Suplemento E,3,120.0,360.0
+130,2026-05-15,Eldorado do Sul,Maria Oliveira,Medicamento F,2,32.7,65.4
+131,2026-03-17,São Leopoldo,Camila Ferreira,Medicamento A,9,25.9,233.1
+132,2026-02-15,São Leopoldo,Rafael Almeida,Medicamento B,7,45.5,318.5
+133,2026-03-01,Canoas,João Silva,Suplemento E,7,120.0,840.0
+134,2026-05-28,São Leopoldo,Lucas Rodrigues,Medicamento A,5,25.9,129.5
+135,2026-05-08,Gravataí,Fernanda Lima,Medicamento B,3,45.5,136.5
+136,2026-01-14,Canoas,Rafael Almeida,Medicamento A,7,25.9,181.3
+137,2026-06-07,Gravataí,Maria Oliveira,Medicamento B,5,45.5,227.5
+138,2026-05-10,Canoas,Fernanda Lima,Suplemento E,10,120.0,1200.0
+139,2026-05-22,São Leopoldo,Lucas Rodrigues,Medicamento F,8,32.7,261.6
+140,2026-04-26,Porto Alegre - Centro,João Silva,Cosmético C,8,89.9,719.2
+141,2026-02-02,São Leopoldo,Lucas Rodrigues,Cosmético C,1,89.9,89.9
+142,2026-03-24,Porto Alegre - Centro,Carlos Souza,Medicamento B,10,45.5,455.0
+143,2026-04-17,São Leopoldo,Maria Oliveira,Medicamento F,3,32.7,98.1
+144,2026-01-20,Gravataí,Larissa Gomes,Higiene D,4,15.3,61.2
+145,2026-07-25,Canoas,Pedro Santos,Cosmético C,1,89.9,89.9
+146,2026-01-20,São Leopoldo,Bruno Carvalho,Medicamento F,1,32.7,32.7
+147,2026-06-05,Porto Alegre - Zona Sul,Juliana Costa,Medicamento B,6,45.5,273.0
+148,2026-03-15,Canoas,Maria Oliveira,Medicamento F,10,32.7,327.0
+149,2026-05-10,Porto Alegre - Zona Sul,Carlos Souza,Medicamento A,10,25.9,259.0
+150,2026-05-16,Porto Alegre - Zona Sul,João Silva,Higiene D,9,,137.7
+151,2026-03-13,Canoas,Pedro Santos,Cosmético C,7,89.9,629.3
+152,2026-02-18,São Leopoldo,Ana Pereira,Higiene D,6,15.3,91.8
+153,2026-06-12,Porto Alegre - Zona Sul,Rafael Almeida,Medicamento A,10,25.9,259.0
+154,2026-05-06,Eldorado do Sul,João Silva,Cosmético C,9,89.9,809.1
+155,2026-04-29,Eldorado do Sul,Lucas Rodrigues,Suplemento E,8,120.0,960.0
+156,2026-07-24,Gravataí,Ana Pereira,Suplemento E,9,120.0,1080.0
+157,2026-07-21,Eldorado do Sul,Ana Pereira,Medicamento A,1,25.9,25.9
+158,2026-07-28,Gravataí,Fernanda Lima,Suplemento E,7,120.0,840.0
+159,2026-03-28,Gravataí,Larissa Gomes,Higiene D,5,15.3,76.5
+160,2026-01-10,Eldorado do Sul,Ana Pereira,Medicamento A,8,25.9,207.2
+161,2026-03-10,Porto Alegre - Centro,Pedro Santos,Cosmético C,9,89.9,809.1
+162,2026-06-01,Gravataí,Carlos Souza,Suplemento E,3,120.0,360.0
+163,2026-07-26,São Leopoldo,Rafael Almeida,Cosmético C,10,89.9,899.0
+164,2026-05-18,Eldorado do Sul,Larissa Gomes,Medicamento B,9,45.5,409.5
+165,2026-05-29,São Leopoldo,Rafael Almeida,Medicamento B,1,45.5,45.5
+166,2026-01-01,Eldorado do Sul,Pedro Santos,Higiene D,9,15.3,137.7
+167,2026-03-21,Gravataí,João Silva,Medicamento F,3,32.7,98.1
+168,2026-05-31,Gravataí,Bruno Carvalho,Medicamento F,5,32.7,163.5
+169,2026-05-28,São Leopoldo,Juliana Costa,Medicamento B,6,45.5,273.0
+170,2026-05-08,Gravataí,Lucas Rodrigues,Medicamento F,3,32.7,98.1
+171,2026-03-26,Eldorado do Sul,Larissa Gomes,Higiene D,9,15.3,137.7
+172,2026-04-05,Gravataí,Pedro Santos,Higiene D,8,15.3,122.4
+173,2026-01-08,Porto Alegre - Zona Sul,Pedro Santos,Medicamento F,5,32.7,163.5
+174,2026-02-22,Eldorado do Sul,Ana Pereira,Medicamento A,1,25.9,25.9
+175,2026-05-01,São Leopoldo,Carlos Souza,Medicamento A,5,25.9,129.5
+176,2026-03-16,Porto Alegre - Centro,Ana Pereira,Suplemento E,8,120.0,960.0
+177,2026-04-16,Porto Alegre - Centro,Ana Pereira,Suplemento E,8,120.0,960.0
+178,2026-04-16,Eldorado do Sul,Fernanda Lima,Higiene D,4,15.3,61.2
+179,2026-07-28,Gravataí,João Silva,Cosmético C,7,89.9,629.3
+180,2026-04-03,Canoas,Camila Ferreira,Medicamento F,6,32.7,196.2
+181,2026-03-30,Porto Alegre - Zona Sul,Larissa Gomes,Cosmético C,2,89.9,179.8
+182,2026-05-12,Porto Alegre - Zona Sul,Lucas Rodrigues,Cosmético C,8,89.9,719.2
+183,2026-07-06,Eldorado do Sul,Lucas Rodrigues,Higiene D,6,15.3,91.8
+184,2026-05-27,Canoas,Carlos Souza,Cosmético C,4,89.9,359.6
+185,2026-05-22,Gravataí,Juliana Costa,Cosmético C,8,89.9,719.2
+186,2026-06-10,São Leopoldo,Fernanda Lima,Higiene D,6,15.3,91.8
+187,2026-06-27,Porto Alegre - Zona Sul,Larissa Gomes,Medicamento B,7,45.5,318.5
+188,2019-13-45,Canoas,Maria Oliveira,Medicamento B,2,45.5,91.0
+189,2026-06-05,São Leopoldo,Larissa Gomes,Medicamento B,10,45.5,455.0
+190,2026-05-08,Gravataí,Carlos Souza,Suplemento E,4,120.0,480.0
+191,2026-07-11,Canoas,Carlos Souza,Medicamento A,8,25.9,207.2
+192,2026-03-03,Eldorado do Sul,Lucas Rodrigues,Medicamento F,6,32.7,196.2
+193,2026-07-16,Porto Alegre - Zona Sul,Carlos Souza,Medicamento A,9,25.9,233.1
+194,2026-03-22,Porto Alegre - Centro,Larissa Gomes,Medicamento A,4,25.9,103.6
+195,2026-05-16,Canoas,Maria Oliveira,Suplemento E,10,,1200.0
+196,2026-07-22,Eldorado do Sul,Camila Ferreira,Medicamento A,3,25.9,77.7
+197,2026-06-19,Eldorado do Sul,Pedro Santos,Medicamento A,6,25.9,155.4
+198,2026-05-08,Porto Alegre - Centro,Maria Oliveira,Higiene D,5,15.3,76.5
+199,2026-07-18,Gravataí,Camila Ferreira,Medicamento F,6,32.7,196.2
+200,2026-02-06,Porto Alegre - Centro,João Silva,Higiene D,4,,61.2
+201,2026-02-22,Eldorado do Sul,Rafael Almeida,Higiene D,1,15.3,15300.0
+202,2026-03-14,Eldorado do Sul,Larissa Gomes,Medicamento F,7,32.7,228.9
+203,2026-04-14,Porto Alegre - Centro,Camila Ferreira,Medicamento A,4,25.9,103.6
+204,2026-02-22,São Leopoldo,Bruno Carvalho,Medicamento B,6,45.5,273.0
+205,2026-03-23,Porto Alegre - Centro,Larissa Gomes,Medicamento B,1,45.5,45.5
+206,2026-03-17,Canoas,Carlos Souza,Cosmético C,2,89.9,179.8
+207,2026-01-24,Porto Alegre - Zona Sul,Ana Pereira,Medicamento A,1,25.9,25.9
+208,2026-07-07,Gravataí,Pedro Santos,Higiene D,7,15.3,107.1
+209,2026-07-17,ELDORADO DO SUL  ,Maria Oliveira,Medicamento A,4,25.9,1103.59
+210,2026-04-26,Canoas,Pedro Santos,Suplemento E,7,120.0,840.0
+211,2026-02-02,Porto Alegre - Centro,Ana Pereira,Higiene D,1,15.3,15.3
+212,2026-06-02,Porto Alegre - Centro,Camila Ferreira,Medicamento B,10,45.5,455.0
+213,2026-02-25,Canoas,Fernanda Lima,Medicamento F,6,32.7,196.2
+214,2026-07-22,São Leopoldo,João Silva,Suplemento E,9,120.0,1080.0
+215,2026-02-24,Eldorado do Sul,Fernanda Lima,Cosmético C,3,89.9,269.7
+216,2026-01-13,Porto Alegre - Centro,Pedro Santos,Suplemento E,6,120.0,720.0
+217,2026-05-17,São Leopoldo,Ana Pereira,Medicamento B,7,45.5,318.5
+218,2026-04-28,Porto Alegre - Zona Sul,Ana Pereira,Higiene D,9,15.3,137.7
+219,2026-07-09,São Leopoldo,João Silva,Medicamento A,3,25.9,77.7
+220,2026-07-29,Canoas,Juliana Costa,Medicamento A,4,25.9,103.6
+221,2026-06-17,São Leopoldo,Fernanda Lima,Higiene D,10,15.3,153.0
+222,2026-01-26,São Leopoldo,Juliana Costa,Medicamento B,6,45.5,273.0
+223,2026-07-13,Gravataí,Maria Oliveira,Cosmético C,4,89.9,359.6
+224,2019-13-45,Porto Alegre - Zona Sul,João Silva,Suplemento E,3,120.0,360.0
+225,2026-06-21,Eldorado do Sul,Maria Oliveira,Suplemento E,9,120.0,1080.0
+226,2026-05-10,Eldorado do Sul,Bruno Carvalho,Medicamento A,5,25.9,129.5
+227,2026-04-05,São Leopoldo,Larissa Gomes,Medicamento A,8,25.9,207.2
+228,2026-04-24,Gravataí,Pedro Santos,Medicamento F,4,32.7,130.8
+229,2026-07-17,Gravataí,Larissa Gomes,Higiene D,7,15.3,107.1
+230,2026-05-23,Porto Alegre - Centro,Camila Ferreira,Cosmético C,3,89.9,269.7
+231,2026-02-09,São Leopoldo,Fernanda Lima,Medicamento A,10,25.9,259.0
+232,2026-05-28,Porto Alegre - Zona Sul,,Medicamento A,-9,25.9,233.1
+233,2026-02-08,Porto Alegre - Zona Sul,Camila Ferreira,Medicamento F,1,32.7,32.7
+234,2026-05-30,Canoas,Bruno Carvalho,Medicamento F,5,32.7,163.5
+235,2026-04-17,Porto Alegre - Centro,Ana Pereira,Suplemento E,8,120.0,960000.0
+236,2026-04-09,Eldorado do Sul,Carlos Souza,Higiene D,8,15.3,122.4
+237,2026-05-10,SÃO LEOPOLDO  ,Juliana Costa,Cosmético C,2,89.9,179.8
+238,2026-01-18,Eldorado do Sul,Juliana Costa,Cosmético C,5,89.9,449.5
+239,2026-04-21,Porto Alegre - Zona Sul,Ana Pereira,Cosmético C,6,89.9,539.4
+240,2026-01-25,Porto Alegre - Centro,Bruno Carvalho,Higiene D,4,15.3,61.2
+241,2026-06-12,Canoas,Larissa Gomes,Medicamento B,2,45.5,91.0
+242,2026-01-29,Porto Alegre - Centro,Larissa Gomes,Suplemento E,1,120.0,120.0
+243,2026-07-17,Gravataí,Larissa Gomes,Medicamento F,2,32.7,65.4
+244,2026-01-27,Porto Alegre - Centro,Camila Ferreira,Medicamento F,8,32.7,261.6
+245,2026-01-24,Porto Alegre - Zona Sul,Maria Oliveira,Suplemento E,7,120.0,840.0
+246,2026-05-10,Porto Alegre - Centro,Bruno Carvalho,Suplemento E,3,120.0,360.0
+247,2026-03-16,São Leopoldo,Pedro Santos,Higiene D,9,15.3,137.7
+248,2026-02-27,Porto Alegre - Centro,Juliana Costa,Medicamento A,4,25.9,103.6
+249,2026-06-05,Porto Alegre - Zona Sul,Carlos Souza,Cosmético C,9,89.9,809.1
+250,2026-05-12,Porto Alegre - Centro,Bruno Carvalho,Medicamento A,7,25.9,181.3
+251,2026-04-15,Canoas,Larissa Gomes,Medicamento B,1,45.5,45.5
+252,2026-07-24,Porto Alegre - Zona Sul,Lucas Rodrigues,Medicamento B,3,45.5,136.5
+253,2026-05-28,Canoas,Camila Ferreira,Medicamento A,6,25.9,155.4
+254,2026-02-02,Eldorado do Sul,João Silva,Medicamento F,9,32.7,294.3
+255,2026-07-23,Eldorado do Sul,Rafael Almeida,Medicamento B,3,45.5,136.5
+256,2026-03-12,Canoas,Maria Oliveira,Medicamento F,4,32.7,130.8
+257,2026-02-05,São Leopoldo,Maria Oliveira,Medicamento B,4,45.5,182.0
+258,2026-06-08,São Leopoldo,Carlos Souza,Suplemento E,7,120.0,840.0
+259,2026-01-25,São Leopoldo,Larissa Gomes,Medicamento A,7,25.9,181.3
+260,2026-06-07,Gravataí,Pedro Santos,Higiene D,3,15.3,45.9
+261,2026-03-26,Porto Alegre - Centro,Fernanda Lima,Suplemento E,10,120.0,1200.0
+262,2026-04-13,Porto Alegre - Centro,Camila Ferreira,Cosmético C,1,89.9,89.9
+263,2026-05-07,Porto Alegre - Centro,Carlos Souza,Medicamento F,3,32.7,98.1
+264,2026-06-29,Canoas,Maria Oliveira,Cosmético C,5,89.9,449.5
+265,2026-04-16,São Leopoldo,Fernanda Lima,Medicamento B,6,45.5,273.0
+266,2026-05-24,Eldorado do Sul,Camila Ferreira,Medicamento A,10,25.9,259.0
+267,2026-03-09,Eldorado do Sul,Larissa Gomes,Suplemento E,2,120.0,240.0
+268,2026-05-22,Gravataí,Lucas Rodrigues,Cosmético C,6,89.9,539.4
+269,2026-04-10,Eldorado do Sul,Fernanda Lima,Higiene D,1,15.3,15.3
+270,2026-05-11,Canoas,Maria Oliveira,Medicamento B,3,45.5,136.5
+271,2026-01-18,Porto Alegre - Zona Sul,Juliana Costa,Medicamento B,6,45.5,273.0
+272,2026-04-08,Canoas,João Silva,Medicamento A,10,25.9,259.0
+273,2026-05-15,Canoas,Lucas Rodrigues,Medicamento F,8,32.7,261.6
+274,2026-02-13,Gravataí,,Medicamento A,6,25.9,155.4
+275,2026-03-07,Porto Alegre - Zona Sul,Carlos Souza,Medicamento A,1,25.9,25.9
+276,2026-05-12,Gravataí,Maria Oliveira,Higiene D,6,15.3,91.8
+277,2026-07-13,Porto Alegre - Zona Sul,Ana Pereira,Suplemento E,6,120.0,720.0
+278,2026-02-06,Eldorado do Sul,Carlos Souza,Higiene D,8,15.3,122.4
+279,2026-01-08,Canoas,Juliana Costa,Higiene D,6,15.3,91.8
+280,2026-01-28,Porto Alegre - Zona Sul,Lucas Rodrigues,Higiene D,8,15.3,122.4
+281,2026-07-27,Eldorado do Sul,Larissa Gomes,Higiene D,2,15.3,30.6
+282,2026-04-19,Porto Alegre - Zona Sul,Rafael Almeida,Suplemento E,10,120.0,1200.0
+283,2026-01-12,São Leopoldo,Lucas Rodrigues,Medicamento B,5,45.5,227.5
+284,2026-01-07,Porto Alegre - Centro,Ana Pereira,Suplemento E,5,120.0,600.0
+285,2026-01-08,Porto Alegre - Centro,João Silva,Suplemento E,1,120.0,120.0
+286,2026-01-30,Eldorado do Sul,Camila Ferreira,Suplemento E,6,120.0,720.0
+287,2026-03-11,Canoas,Fernanda Lima,Higiene D,4,15.3,61.2
+288,2026-01-03,Porto Alegre - Centro,Lucas Rodrigues,Cosmético C,9,89.9,809.1
+289,2026-02-06,Gravataí,Bruno Carvalho,Medicamento B,1,45.5,45.5
+290,2026-03-11,Eldorado do Sul,Camila Ferreira,Suplemento E,3,120.0,360.0
+291,2026-04-04,Eldorado do Sul,Pedro Santos,Suplemento E,3,120.0,360.0
+292,2026-04-30,Canoas,Fernanda Lima,Medicamento F,6,32.7,196.2
+293,2026-01-19,São Leopoldo,João Silva,Cosmético C,8,89.9,719.2
+294,2026-03-17,Canoas,Rafael Almeida,Suplemento E,9,120.0,1080.0
+295,2026-06-13,Eldorado do Sul,Fernanda Lima,Medicamento B,8,45.5,364.0
+296,2026-04-27,Eldorado do Sul,Ana Pereira,Medicamento F,5,32.7,163.5
+297,2026-02-24,Canoas,Juliana Costa,Higiene D,6,15.3,91.8
+298,2026-06-02,Eldorado do Sul,Fernanda Lima,Suplemento E,9,120.0,1080.0
+299,2026-06-20,Eldorado do Sul,Larissa Gomes,Medicamento F,6,32.7,196.2
+300,2026-04-11,Gravataí,Camila Ferreira,Suplemento E,1,120.0,120.0
+301,2026-07-30,Canoas,Maria Oliveira,Medicamento A,7,25.9,181.3
+302,2026-01-04,Eldorado do Sul,Rafael Almeida,Medicamento A,7,25.9,181.3
+303,2026-01-24,Canoas,Juliana Costa,Higiene D,8,15.3,122.4
+304,2026-06-11,Porto Alegre - Zona Sul,Carlos Souza,Medicamento F,8,32.7,261.6
+305,2026-04-19,Porto Alegre - Zona Sul,Pedro Santos,Higiene D,3,15.3,45.9
+306,2026-06-12,Gravataí,Pedro Santos,Cosmético C,4,89.9,359.6
+307,2026-07-09,Porto Alegre - Centro,Ana Pereira,Medicamento A,10,25.9,259.0
+308,2026-07-06,Eldorado do Sul,Lucas Rodrigues,Medicamento B,5,45.5,227.5
+309,2026-02-24,Gravataí,Pedro Santos,Medicamento A,9,25.9,233.1
+310,2026-01-22,São Leopoldo,Fernanda Lima,Suplemento E,2,120.0,240.0
+311,2026-02-25,Canoas,Lucas Rodrigues,Medicamento A,9,25.9,233.1
+312,2026-06-29,Canoas,Pedro Santos,Higiene D,5,15.3,76.5
+313,2026-07-06,SÃO LEOPOLDO  ,Carlos Souza,Cosmético C,6,89.9,539.4
+314,2026-03-14,Porto Alegre - Centro,Carlos Souza,Suplemento E,2,120.0,240.0
+315,2026-04-07,Porto Alegre - Zona Sul,Carlos Souza,Medicamento B,10,45.5,455.0
+316,2026-04-24,Porto Alegre - Centro,,Cosmético C,6,89.9,539.4
+317,2026-02-06,Porto Alegre - Zona Sul,Bruno Carvalho,Higiene D,2,15.3,30.6
+318,2026-01-30,Porto Alegre - Zona Sul,João Silva,Cosmético C,7,89.9,629.3
+319,2026-03-20,São Leopoldo,Camila Ferreira,Higiene D,4,15.3,61.2
+320,2026-03-06,Porto Alegre - Centro,Bruno Carvalho,Suplemento E,3,120.0,360.0
+321,2026-07-27,Porto Alegre - Zona Sul,Larissa Gomes,Medicamento B,10,45.5,455.0
+322,2026-06-11,Eldorado do Sul,Pedro Santos,Higiene D,8,15.3,122.4
+323,2026-04-13,São Leopoldo,Rafael Almeida,Medicamento F,9,32.7,294.3
+324,2026-04-29,Gravataí,Camila Ferreira,Medicamento B,8,45.5,364.0
+325,2026-02-24,Eldorado do Sul,Pedro Santos,Medicamento B,8,45.5,364.0
+326,2026-07-03,Canoas,Carlos Souza,Higiene D,10,15.3,153.0
+327,2026-05-11,Canoas,Larissa Gomes,Medicamento F,4,32.7,130.8
+328,2026-04-09,Porto Alegre - Zona Sul,Camila Ferreira,Suplemento E,3,120.0,360.0
+329,2026-03-04,Canoas,Camila Ferreira,Medicamento A,1,25.9,25.9
+330,2026-01-11,Porto Alegre - Zona Sul,Fernanda Lima,Cosmético C,10,89.9,899.0
+331,2026-02-25,Porto Alegre - Zona Sul,Juliana Costa,Medicamento B,10,45.5,455.0
+332,2026-03-26,São Leopoldo,Rafael Almeida,Higiene D,2,15.3,30.6
+333,2026-02-27,Porto Alegre - Centro,Juliana Costa,Medicamento F,8,32.7,261.6
+334,2026-03-25,Porto Alegre - Centro,Pedro Santos,Medicamento A,1,25.9,25.9
+335,2026-05-06,São Leopoldo,Fernanda Lima,Medicamento F,2,32.7,65.4
+336,2026-05-24,Gravataí,Camila Ferreira,Medicamento B,7,45.5,318.5
+337,2026-02-21,Porto Alegre - Zona Sul,Ana Pereira,Medicamento B,2,45.5,91.0
+338,2026-01-16,Canoas,Pedro Santos,Suplemento E,6,120.0,720.0
+339,2026-07-12,Porto Alegre - Centro,Lucas Rodrigues,Medicamento B,1,45.5,45.5
+340,2026-07-16,Porto Alegre - Zona Sul,Lucas Rodrigues,Suplemento E,3,120.0,360.0
+341,2026-05-18,Porto Alegre - Centro,Lucas Rodrigues,Medicamento A,8,25.9,207.2
+342,2026-01-18,Porto Alegre - Centro,Maria Oliveira,Medicamento B,8,45.5,364.0
+343,2026-06-22,São Leopoldo,Bruno Carvalho,Medicamento F,1,32.7,32.7
+344,2026-06-07,Canoas,Pedro Santos,Medicamento F,6,,196.2
+345,2026-06-15,Porto Alegre - Zona Sul,João Silva,Medicamento A,9,25.9,233.1
+346,2026-07-12,Canoas,Lucas Rodrigues,Cosmético C,5,89.9,449.5
+347,2026-04-13,Gravataí,João Silva,Suplemento E,9,120.0,1080.0
+348,2026-04-30,Gravataí,Pedro Santos,Higiene D,10,15.3,153.0
+349,2026-04-26,Eldorado do Sul,Ana Pereira,Medicamento B,8,45.5,364.0
+350,2026-02-12,Canoas,Fernanda Lima,Medicamento A,4,25.9,103.6
+351,2026-04-19,Porto Alegre - Centro,Rafael Almeida,Medicamento F,4,32.7,130.8
+352,2026-04-08,Eldorado do Sul,Fernanda Lima,Medicamento B,2,45.5,91.0
+353,2026-04-03,Porto Alegre - Centro,Juliana Costa,Higiene D,9,15.3,137.7
+354,2026-05-22,Porto Alegre - Centro,Larissa Gomes,Higiene D,6,15.3,91.8
+355,2026-04-15,Eldorado do Sul,João Silva,Higiene D,10,15.3,153.0
+356,2026-03-21,São Leopoldo,Juliana Costa,Medicamento A,7,25.9,181.3
+357,2026-06-22,Porto Alegre - Zona Sul,Fernanda Lima,Cosmético C,2,89.9,179.8
+358,2026-07-05,Gravataí,Rafael Almeida,Higiene D,5,15.3,76.5
+359,2026-03-16,São Leopoldo,Carlos Souza,Medicamento A,9,25.9,233.1
+360,2026-04-03,Gravataí,Pedro Santos,Suplemento E,4,120.0,480.0
+361,2026-05-06,Porto Alegre - Centro,Camila Ferreira,Medicamento A,7,25.9,181.3
+362,2026-04-25,Gravataí,Fernanda Lima,Higiene D,3,15.3,45.9
+363,2026-02-04,Canoas,Fernanda Lima,Medicamento B,9,45.5,409.5
+364,2026-03-21,Porto Alegre - Centro,Camila Ferreira,Medicamento A,3,25.9,77.7
+365,2026-03-02,Eldorado do Sul,Bruno Carvalho,Medicamento A,9,25.9,233.1
+366,2026-02-26,Canoas,Camila Ferreira,Cosmético C,1,89.9,89.9
+367,2026-03-09,São Leopoldo,Camila Ferreira,Medicamento F,4,32.7,130.8
+368,2026-01-05,São Leopoldo,Rafael Almeida,Medicamento A,8,25.9,207.2
+369,2026-01-01,Eldorado do Sul,Carlos Souza,Medicamento B,10,45.5,455.0
+370,2026-06-18,Canoas,Pedro Santos,Cosmético C,1,89.9,89.9
+371,2026-01-19,São Leopoldo,Bruno Carvalho,Medicamento B,1,45.5,45.5
+372,2026-03-06,São Leopoldo,João Silva,Higiene D,6,15.3,91.8
+373,2026-05-03,Canoas,Juliana Costa,Cosmético C,8,89.9,719.2
+374,2026-07-26,Porto Alegre - Centro,Camila Ferreira,Medicamento F,10,32.7,327.0
+375,2026-04-28,Eldorado do Sul,Maria Oliveira,Medicamento B,5,45.5,227.5
+376,2026-04-30,Porto Alegre - Zona Sul,Camila Ferreira,Higiene D,3,15.3,45.9
+377,2026-01-23,Eldorado do Sul,Fernanda Lima,Cosmético C,4,89.9,359.6
+378,2026-06-18,Porto Alegre - Zona Sul,Lucas Rodrigues,Medicamento B,1,45.5,45.5
+379,2026-03-05,Porto Alegre - Centro,João Silva,Medicamento F,5,32.7,163.5
+380,2026-02-11,Eldorado do Sul,Juliana Costa,Medicamento F,6,32.7,196.2
+381,2026-07-02,Eldorado do Sul,Lucas Rodrigues,Medicamento F,4,32.7,130.8
+382,2026-02-03,Gravataí,Larissa Gomes,Medicamento F,7,32.7,228.9
+383,2026-07-22,SÃO LEOPOLDO  ,Bruno Carvalho,Suplemento E,1,,120.0
+384,2026-01-17,Eldorado do Sul,Lucas Rodrigues,Suplemento E,2,120.0,240.0
+385,2026-06-16,Porto Alegre - Zona Sul,Juliana Costa,Higiene D,10,15.3,153.0
+386,2026-06-24,Gravataí,Maria Oliveira,Cosmético C,10,89.9,899.0
+387,2026-01-20,Canoas,Rafael Almeida,Higiene D,4,15.3,61.2
+388,2026-05-08,Gravataí,Rafael Almeida,Medicamento A,2,25.9,51.8
+389,2026-06-07,Gravataí,Fernanda Lima,Medicamento F,5,32.7,163.5
+390,2026-03-22,Eldorado do Sul,Juliana Costa,Higiene D,2,15.3,30.6
+391,2026-05-13,Porto Alegre - Zona Sul,Maria Oliveira,Suplemento E,1,120.0,120.0
+392,2026-06-12,Porto Alegre - Zona Sul,Camila Ferreira,Cosmético C,4,89.9,359.6
+393,2026-06-09,Gravataí,Maria Oliveira,Medicamento A,8,25.9,207.2
+394,2026-02-16,Porto Alegre - Centro,Pedro Santos,Medicamento B,8,45.5,364.0
+395,2026-07-19,Gravataí,Bruno Carvalho,Cosmético C,3,89.9,269.7
+396,2026-02-26,GRAVATAÍ  ,João Silva,Higiene D,9,15.3,137.7
+397,2026-01-21,Gravataí,Lucas Rodrigues,Medicamento B,3,45.5,136.5
+398,2026-07-27,Porto Alegre - Centro,Carlos Souza,Suplemento E,5,120.0,600.0
+399,2026-07-13,Porto Alegre - Centro,Ana Pereira,Medicamento F,1,32.7,32.7
+400,2019-13-45,Gravataí,Ana Pereira,Medicamento A,1,25.9,25.9
+401,2026-03-13,Porto Alegre - Zona Sul,Camila Ferreira,Suplemento E,8,120.0,960.0
+402,2026-03-31,Eldorado do Sul,Ana Pereira,Medicamento B,8,45.5,364.0
+403,2026-06-08,PORTO ALEGRE - CENTRO  ,Ana Pereira,Suplemento E,1,120.0,120.0
+404,2026-07-25,Gravataí,Juliana Costa,Medicamento F,7,32.7,228.9
+405,2026-01-30,Canoas,Camila Ferreira,Suplemento E,9,120.0,1080.0
+406,2026-02-19,Porto Alegre - Zona Sul,Larissa Gomes,Suplemento E,3,120.0,360.0
+407,2026-06-17,Porto Alegre - Zona Sul,Maria Oliveira,Medicamento B,7,45.5,318.5
+408,2026-02-28,São Leopoldo,Maria Oliveira,Medicamento F,5,32.7,163.5
+409,2026-03-14,Gravataí,Bruno Carvalho,Medicamento B,2,45.5,91.0
+410,2026-03-10,Porto Alegre - Zona Sul,Maria Oliveira,Medicamento B,3,45.5,136.5
+411,2026-02-19,Canoas,Bruno Carvalho,Suplemento E,3,120.0,360.0
+412,2026-06-29,São Leopoldo,Bruno Carvalho,Medicamento B,5,45.5,227.5
+413,2026-05-10,Gravataí,Rafael Almeida,Suplemento E,9,120.0,1080.0
+414,2026-02-26,Gravataí,João Silva,Higiene D,9,15.3,137.7
+415,2026-05-13,Eldorado do Sul,Maria Oliveira,Medicamento B,6,45.5,273.0
+416,2026-02-26,São Leopoldo,Juliana Costa,Cosmético C,9,89.9,809.1
+417,2026-05-11,São Leopoldo,Pedro Santos,Medicamento F,5,32.7,163.5
+418,2026-06-07,Canoas,Ana Pereira,Cosmético C,7,89.9,629.3
+419,2026-06-21,São Leopoldo,Larissa Gomes,Cosmético C,3,89.9,269700.0
+420,2026-03-29,Eldorado do Sul,Carlos Souza,Medicamento F,7,32.7,228.9
+421,2026-03-28,Eldorado do Sul,João Silva,Medicamento F,-5,32.7,163.5
+422,2026-01-27,São Leopoldo,Pedro Santos,Medicamento F,4,32.7,130.8
+423,2026-01-23,Canoas,Maria Oliveira,Medicamento F,6,32.7,196.2
+424,2026-01-21,Porto Alegre - Zona Sul,Carlos Souza,Cosmético C,9,89.9,809.1
+425,2026-02-01,Gravataí,Carlos Souza,Suplemento E,1,120.0,120.0
+426,2026-05-22,Porto Alegre - Zona Sul,Camila Ferreira,Medicamento A,10,25.9,259.0
+427,2026-04-17,São Leopoldo,Camila Ferreira,Medicamento A,8,25.9,207.2
+428,2026-07-19,São Leopoldo,Fernanda Lima,Cosmético C,3,89.9,269.7
+429,2026-07-02,Eldorado do Sul,Lucas Rodrigues,Suplemento E,9,120.0,1080.0
+430,2026-03-03,Porto Alegre - Centro,Ana Pereira,Cosmético C,5,89.9,449.5
+431,2026-04-03,Gravataí,Camila Ferreira,Higiene D,1,15.3,15.3
+432,2026-06-14,São Leopoldo,Camila Ferreira,Medicamento F,4,32.7,130.8
+433,2026-07-23,Porto Alegre - Centro,Juliana Costa,Cosmético C,6,89.9,539.4
+434,2026-07-26,São Leopoldo,Lucas Rodrigues,Higiene D,4,15.3,61.2
+435,2026-03-24,São Leopoldo,Maria Oliveira,Higiene D,6,15.3,91.8
+436,2026-03-26,Porto Alegre - Centro,Rafael Almeida,Cosmético C,2,89.9,179.8
+437,2026-05-07,Canoas,Ana Pereira,Medicamento B,7,45.5,318.5
+438,2026-05-19,Gravataí,João Silva,Cosmético C,3,89.9,269.7
+439,2026-03-09,São Leopoldo,Maria Oliveira,Medicamento F,4,32.7,130.8
+440,2026-01-12,Eldorado do Sul,Rafael Almeida,Cosmético C,3,89.9,269.7
+441,2026-01-23,Gravataí,Lucas Rodrigues,Medicamento F,9,32.7,294.3
+442,2026-07-19,Porto Alegre - Centro,Bruno Carvalho,Cosmético C,6,89.9,539.4
+443,2026-04-16,Eldorado do Sul,Bruno Carvalho,Higiene D,1,15.3,15.3
+444,2026-03-26,São Leopoldo,Maria Oliveira,Suplemento E,9,120.0,1080.0
+445,2026-02-19,Eldorado do Sul,Bruno Carvalho,Cosmético C,8,89.9,719.2
+446,2026-01-19,São Leopoldo,Bruno Carvalho,Medicamento B,1,45.5,45.5
+447,2026-06-09,CANOAS  ,Bruno Carvalho,Suplemento E,6,120.0,720.0
+448,2026-06-02,Porto Alegre - Centro,Lucas Rodrigues,Medicamento F,7,32.7,228.9
+449,2026-02-14,Gravataí,Maria Oliveira,Medicamento B,4,45.5,182.0
+450,2026-01-17,Porto Alegre - Zona Sul,Camila Ferreira,Higiene D,5,15.3,76.5
+451,2026-06-02,São Leopoldo,Pedro Santos,Cosmético C,5,,1449.49
+452,2026-07-30,Porto Alegre - Centro,Juliana Costa,Medicamento A,4,25.9,103.6
+453,2026-07-12,Eldorado do Sul,Bruno Carvalho,Medicamento F,9,32.7,294.3
+454,2026-06-13,Eldorado do Sul,Carlos Souza,Cosmético C,3,89.9,269.7
+455,2026-06-28,São Leopoldo,Rafael Almeida,Cosmético C,7,89.9,629.3
+456,2026-04-22,PORTO ALEGRE - CENTRO  ,Fernanda Lima,Higiene D,1,15.3,15.3
+457,2026-07-11,Canoas,Carlos Souza,Cosmético C,6,89.9,539.4
+458,2026-04-01,Gravataí,Maria Oliveira,Suplemento E,1,120.0,120.0
+459,2026-01-30,Porto Alegre - Centro,Larissa Gomes,Medicamento B,5,45.5,227.5
+460,2026-05-24,Canoas,Bruno Carvalho,Medicamento A,5,25.9,129.5
+461,2026-06-15,Porto Alegre - Zona Sul,Fernanda Lima,Higiene D,2,15.3,30.6
+462,2026-03-30,Gravataí,Pedro Santos,Medicamento A,6,25.9,155.4
+463,2026-02-09,São Leopoldo,Maria Oliveira,Medicamento B,10,45.5,455.0
+464,2026-06-03,Eldorado do Sul,Juliana Costa,Medicamento A,5,25.9,129.5
+465,2026-03-19,Porto Alegre - Centro,João Silva,Cosmético C,4,89.9,359.6
+466,2026-05-05,Gravataí,Bruno Carvalho,Medicamento F,10,32.7,327.0
+467,2026-05-26,Gravataí,Bruno Carvalho,Medicamento B,8,45.5,364.0
+468,2026-06-05,Porto Alegre - Zona Sul,Juliana Costa,Medicamento B,6,45.5,1272.99
+469,2026-01-07,Gravataí,Bruno Carvalho,Medicamento F,9,32.7,1294.29
+470,2026-03-12,Gravataí,Bruno Carvalho,Medicamento A,3,25.9,77.7
+471,2026-03-31,Canoas,João Silva,Medicamento F,8,32.7,261.6
+472,2026-07-02,Canoas,Maria Oliveira,Higiene D,3,15.3,45.9
+473,2026-05-02,Porto Alegre - Zona Sul,Fernanda Lima,Suplemento E,10,120.0,1200.0
+474,2026-06-25,São Leopoldo,João Silva,Medicamento A,10,25.9,259.0
+475,2026-05-12,São Leopoldo,Bruno Carvalho,Higiene D,6,15.3,91.8
+476,2026-05-12,Gravataí,Maria Oliveira,Medicamento B,6,45.5,273.0
+477,2026-01-30,Eldorado do Sul,Carlos Souza,Cosmético C,1,89.9,89.9
+478,2026-07-07,Porto Alegre - Zona Sul,Maria Oliveira,Suplemento E,6,120.0,720.0
+479,2026-02-11,Canoas,Lucas Rodrigues,Medicamento F,4,32.7,130.8
+480,2026-07-06,Porto Alegre - Centro,Juliana Costa,Higiene D,7,15.3,107.1
+481,2026-07-19,Porto Alegre - Zona Sul,Maria Oliveira,Medicamento B,6,45.5,273.0
+482,2026-03-16,Porto Alegre - Centro,Lucas Rodrigues,Higiene D,7,15.3,107.1
+483,2026-03-28,São Leopoldo,Bruno Carvalho,Medicamento A,7,25.9,181.3
+484,2026-04-13,Porto Alegre - Centro,Carlos Souza,Higiene D,4,15.3,61.2
+485,2026-03-01,Gravataí,Ana Pereira,Medicamento F,8,32.7,261.6
+486,2026-03-21,Canoas,João Silva,Medicamento F,1,32.7,32.7
+487,2026-04-04,Canoas,Maria Oliveira,Medicamento F,4,32.7,130.8
+488,2026-06-29,Eldorado do Sul,,Medicamento B,8,45.5,364.0
+489,2026-07-25,Gravataí,Carlos Souza,Cosmético C,8,89.9,719.2
+490,2026-07-21,Gravataí,Camila Ferreira,Medicamento B,7,45.5,318.5
+491,2026-01-21,Canoas,Camila Ferreira,Medicamento A,7,25.9,181.3
+492,2026-06-20,Eldorado do Sul,Juliana Costa,Higiene D,6,15.3,91.8
+493,2026-03-12,Porto Alegre - Centro,João Silva,Medicamento A,7,25.9,181.3
+494,2026-01-20,São Leopoldo,Maria Oliveira,Cosmético C,5,,449.5
+495,2026-01-18,Porto Alegre - Centro,Juliana Costa,Medicamento A,4,25.9,103.6
+496,2026-03-06,Canoas,Maria Oliveira,Medicamento B,1,45.5,45.5
+497,2026-06-14,São Leopoldo,Camila Ferreira,Higiene D,10,15.3,153.0
+498,2026-01-29,Eldorado do Sul,Bruno Carvalho,Cosmético C,7,89.9,629.3
+499,2026-04-17,Canoas,Juliana Costa,Medicamento B,2,45.5,91.0
+500,2026-06-08,São Leopoldo,João Silva,Suplemento E,7,120.0,840.0
+501,2026-03-02,Eldorado do Sul,Juliana Costa,Medicamento F,5,32.7,163.5
+502,2026-02-08,Canoas,Maria Oliveira,Cosmético C,6,89.9,539.4
+503,2026-04-11,Eldorado do Sul,Juliana Costa,Medicamento B,2,45.5,91.0
+504,2026-05-05,Gravataí,Bruno Carvalho,Medicamento F,10,32.7,327.0
+505,2026-02-01,Porto Alegre - Zona Sul,Maria Oliveira,Higiene D,4,15.3,61.2
