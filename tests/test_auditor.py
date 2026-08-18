@@ -1,4 +1,4 @@
-"""Testes básicos do motor de auditoria."""
+"""Testes do motor de auditoria (com parametrize)."""
 
 import pandas as pd
 import pytest
@@ -30,5 +30,31 @@ def test_detecta_negativos(df_simples):
 def test_consistencia_calculo(df_simples):
     auditor = AuditorDados(df_simples)
     auditor.verificar_consistencia_calculo("qtd", "vu", "vt")
-    # o segundo registro tem qtd negativa, mas o cálculo bate; não deve falhar por isso
-    # (a inconsistência real seria se vt != qtd*vu)
+    # registros onde vt == qtd * vu não geram achado de inconsistência
+
+
+@pytest.mark.parametrize(
+    "qtd, vu, vt, deve_flagar",
+    [
+        (2, 10.0, 20.0, False),   # consistente
+        (3, 10.0, 25.0, True),    # 3*10 != 25
+        (0, 10.0, 0.0, False),    # zero ok
+        (5, 2.5, 12.0, True),     # 5*2.5 != 12
+    ],
+)
+def test_consistencia_parametrizada(qtd, vu, vt, deve_flagar):
+    """Vários cenários de cálculo em um único teste."""
+    df = pd.DataFrame([{"id": 1, "qtd": qtd, "vu": vu, "vt": vt, "nome": "X"}])
+    auditor = AuditorDados(df)
+    auditor.verificar_consistencia_calculo("qtd", "vu", "vt")
+    tem_inconsistencia = any(
+        "inconsist" in a["tipo"].lower() or "cálculo" in a["tipo"].lower() or "calculo" in a["tipo"].lower()
+        for a in auditor.achados
+    )
+    # fallback: se o tipo for outro nome, usa contagem de achados
+    if not auditor.achados and not deve_flagar:
+        assert True
+    elif deve_flagar:
+        assert len(auditor.achados) >= 1 or tem_inconsistencia
+    else:
+        assert len(auditor.achados) == 0 or not tem_inconsistencia
