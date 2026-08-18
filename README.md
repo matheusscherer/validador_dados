@@ -1,102 +1,84 @@
-# 🔍 Auditoria Automatizada de Dados
+# Validador / Auditoria Automatizada de Dados
 
-Ferramenta em Python que analisa bases de dados e identifica automaticamente
-inconsistências comuns em processos de auditoria e controle de qualidade de dados:
-duplicatas, valores nulos, outliers estatísticos, erros de cálculo, datas
-inválidas e inconsistências de formatação.
+Ferramenta em Python que analisa bases de dados e identifica automaticamente inconsistências comuns em processos de auditoria e controle de qualidade:
 
-Gera um **relatório de auditoria em Markdown** com achados classificados por
-severidade e recomendações, além de persistir os resultados em um banco
-**SQLite** para consulta e histórico.
+- Duplicatas
+- Valores nulos em campos críticos
+- Outliers estatísticos (IQR)
+- Valores negativos inválidos
+- Datas inválidas
+- Formatação inconsistente de texto
+- Erros de cálculo (`quantidade × valor_unitario ≠ valor_total`)
 
-## Por que esse projeto existe
+Gera **relatório em Markdown** classificado por severidade e persiste os achados em **SQLite**.
 
-Áreas de auditoria interna e controle de qualidade em empresas de médio/grande
-porte gastam boa parte do tempo validando manualmente planilhas e bases de
-dados. Este projeto automatiza as verificações mais comuns desse processo,
-permitindo que a auditoria seja executada de forma contínua (ex: rotina
-semanal) em vez de manual e pontual.
+---
 
-## O que o script detecta
-
-| Verificação | Descrição |
-|---|---|
-| **Duplicatas** | Registros com conteúdo idêntico, considerando todas as colunas relevantes |
-| **Valores Nulos** | Campos críticos ausentes (ex: vendedor, valor) |
-| **Outliers** | Valores estatisticamente fora do padrão (método IQR) |
-| **Valores Negativos** | Campos que deveriam ser sempre positivos (ex: quantidade) |
-| **Datas Inválidas** | Datas mal formatadas ou fora do período esperado |
-| **Formatação Inconsistente** | Espaços extras, capitalização mista em campos de texto |
-| **Erros de Cálculo** | Quando `quantidade × valor_unitário ≠ valor_total` |
-
-## Como rodar
+## Instalação
 
 ```bash
-# 1. Instale as dependências
-pip install -r requirements.txt
+git clone https://github.com/matheusscherer/validador_dados.git
+cd validador_dados
 
-# 2. Gere uma base de dados de exemplo (com inconsistências propositais)
-python3 gerar_dados_exemplo.py
+python -m venv .venv
+source .venv/bin/activate
 
-# 3. Rode a auditoria
-python3 auditoria.py
+pip install -e ".[dev]"
 ```
 
-Isso vai gerar:
-- `relatorio_auditoria.md` — relatório completo com achados e recomendações
-- `auditoria.db` — banco SQLite com os dados auditados e histórico de achados
+---
 
-## Usando com sua própria base de dados
+## Como usar
+
+```bash
+python -m validador_dados.main
+# ou
+validador-dados
+```
+
+Se não existir `dados_vendas_bruto.csv`, o script gera automaticamente uma base sintética com inconsistências propositais.
+
+Saídas:
+- `relatorio_auditoria.md`
+- `auditoria.db`
+
+---
+
+## Uso programático
 
 ```python
 import pandas as pd
-from auditoria import AuditorDados
+from validador_dados import AuditorDados
 
 df = pd.read_csv("sua_base.csv")
 auditor = AuditorDados(df, nome_base="minha_base")
 
 config = {
-    "duplicatas_subset": None,  # ou lista de colunas específicas
-    "colunas_criticas_nulos": ["coluna_importante_1", "coluna_importante_2"],
-    "coluna_outlier": "valor",
+    "duplicatas_subset": None,
+    "colunas_criticas_nulos": ["vendedor", "valor_unitario"],
+    "coluna_outlier": "valor_total",
     "coluna_negativa": "quantidade",
-    "coluna_data": "data",
-    "coluna_texto": "categoria",
-    "calculo": ("quantidade", "valor_unitario", "valor_total"),  # ou None
+    "coluna_data": "data_venda",
+    "coluna_texto": "filial",
+    "calculo": ("quantidade", "valor_unitario", "valor_total"),
 }
 
 achados = auditor.rodar_auditoria_completa(config)
-auditor.gerar_relatorio_markdown("meu_relatorio.md")
-auditor.salvar_no_sqlite("meu_banco.db")
+auditor.gerar_relatorio_markdown()
+auditor.salvar_no_sqlite()
 ```
-
-Cada verificação também pode ser chamada individualmente
-(`auditor.verificar_duplicatas()`, `auditor.verificar_outliers("coluna")`, etc.)
-para uso mais granular.
-
-## Estrutura do projeto
-
-```
-auditoria-dados-automatizada/
-├── auditoria.py              # motor principal (classe AuditorDados)
-├── gerar_dados_exemplo.py    # gera base sintética para demonstração
-├── requirements.txt
-└── README.md
-```
-
-## Stack técnica
-
-- **Python 3** — linguagem principal
-- **Pandas** — manipulação e análise de dados
-- **NumPy** — cálculos estatísticos (detecção de outliers via IQR)
-- **SQLite** — persistência dos achados e histórico de auditorias
-
-## Possíveis evoluções
-
-- Agendamento automático (ex: `cron` ou Airflow) para rodar a auditoria periodicamente
-- Envio de alertas por e-mail quando novos problemas críticos forem detectados
-- Interface web para visualização dos achados (ver projeto [dashboard-analise-dados](../dashboard-analise-dados))
 
 ---
 
-Desenvolvido por **Matheus Scherer** — [github.com/matheusscherer](https://github.com/matheusscherer)
+## Stack
+
+- Python 3.10+
+- Pandas + NumPy
+- SQLite
+- pytest + GitHub Actions
+
+---
+
+**Matheus Scherer** · [github.com/matheusscherer](https://github.com/matheusscherer)
+
+MIT License
